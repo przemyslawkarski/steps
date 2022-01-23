@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steps</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <div class="form-box">
+          <label for="annual-steps">Roczna ilość kroków do przejścia</label>
+          <input type="number" id="annual-steps" />
+        </div>
+        <div class="form-box">
+          <label for="all-steps">Aktualna ilość wszystkich kroków</label>
+          <input type="number" id="all-steps" />
+        </div>
+        <div class="buttons">
+          <button class="clear">Wyczyść</button>
+          <button class="send">Wyślij</button>
+        </div>
+      </form>
+      <p class="steps">
+        Dzienna ilość kroków do przejścia: <span class="steps-per-day"></span>
+      </p>
+      <p class="steps">
+        Do rocznego celu brakuje: <span class="difference-of-steps"></span>
+      </p>
+      <p class="steps">
+        Ilość wszystkich kroków na dzień dzisiejszy powinna wynosić:
+        <span class="all-steps-to-now"></span>
+      </p>
+      <p class="info"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
