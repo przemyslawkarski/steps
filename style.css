@@ -1,3 +1,18 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+}
 body {
-    background-color: #ddd;
-  }
+  display: flex;
+  height: 100vh;
+  background-color: #29303B;
+}
+.wrapper {
+  padding: 10px;
+  width: 100%;
+  background-image: linear-gradient(#3F4B59, #333D46);
+  color: #fff;
+}
